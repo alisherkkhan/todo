@@ -28,6 +28,7 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -41,9 +42,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- 👇 Добавлено для image_picker -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Мы используем доступ к фото, чтобы прикреплять изображения к задачам</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Мы используем камеру для создания фотографий задач</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Доступ к микрофону нужен для записи аудио к задачам</string>
 </dict>
 </plist>
